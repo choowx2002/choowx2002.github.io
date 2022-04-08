@@ -33,7 +33,7 @@ function showTime() {
     let AMPM = AM_PM;
 
     document.querySelector('span.H_M').innerHTML= H_M;
-    document.querySelector('span.S').innerHTML= S;
+    //document.querySelector('span.S').innerHTML= S;
     document.querySelector('div.AMPM').innerHTML= AMPM;
     document.querySelector('title').innerHTML= timeNow;
     let calS = s*100/60;
