@@ -54,4 +54,10 @@ img.pic{
     width: 50px;
     background-color: white;
     border-radius: 50%;
+    transition: 0.3s ease-in-out;
+}
+img.pic:hover{
+    filter: drop-shadow(0 0 15px rgba(9, 247, 255, 0.607) );
+    transform: translateY(-8px);
+    width: 60px;
 }
