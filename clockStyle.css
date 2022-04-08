@@ -6,6 +6,7 @@ body{
     text-align: center;
     height: 100%;
     display: flex;
+    flew-flow: column wrap;
     justify-items: center;
     align-items: center;
     margin: 0;
@@ -38,4 +39,12 @@ div.progress{
 }
 .clock:hover{
     color: white;
+}
+/*greeting*/
+div.greet{
+    width: max-content;
+    color: rgb(196, 185, 185);
+    font-size:100px;
+    font-family:'Orbitron';
+    margin: 0 auto; 
 }
