@@ -46,7 +46,8 @@ div.greet{
     color: rgb(240, 235, 235);
     font-size:50px;
     font-family:'Orbitron';
-    margin: 0 auto; 
+    margin: 0 auto;
+    letter-spacing: .2rem;
 }
 img.pic{
     object-fit: cover;
